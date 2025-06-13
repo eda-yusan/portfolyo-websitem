@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- --------- UNICONS ---------- -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+
+    <!-- --------- CSS ---------- -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- --------- FAVICON ---------- -->
+    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+
+    <title>Portfolyo</title>
+</head>
+<body>
+   <div class="container">
+    <!-- --------------- HEADER --------------- -->
+      <nav id="header">
+        <div class="nav-logo">
+            <p class="nav-name">Eda 🌸</p>
+            
+        </div>
+        <div class="nav-menu" id="myNavMenu">
+            <ul class="nav_menu_list">
+                <li class="nav_list">
+                    <a href="#home" class="nav-link" data-lang-tr="AnaSayfa" data-lang-en="Main">AnaSayfa</a>
+                    <!-- <span class="typedText"></span>    AnaSAyfa yanında -->
+                    <div class="circle"></div>
+                </li>
+                <li class="nav_list">
+                    <a href="#about" class="nav-link" data-lang-tr="Hakkımda" data-lang-en="About Me">Hakkımda</a>
+                    <div class="circle"></div>
+                </li>
+                <li class="nav_list">
+                    <a href="#projects" class="nav-link" data-lang-tr="Projeler" data-lang-en="Project">Projeler</a>
+                    <div class="circle"></div>
+                </li>
+                <li class="nav_list">
+                    <a href="#contact" class="nav-link" data-lang-tr="İletişim" data-lang-en="Contact">İletişim</a>
+                    <div class="circle"></div>
+                </li>
+            </ul>
+        </div>
+        <a href="edaYUSAN.pdf" download="edaYUSAN.pdf">
+            <button class="btn" data-lang-tr="CV indir" data-lang-en="Download CV">CV indir</button>
+        </a>
+        <div class="nav-menu-btn">
+            <i class="uil uil-bars" onclick="myMenuFunction()"></i>
+        </div>
+      </nav>
+
+
+    <!-- -------------- MAIN ---------------- -->
+    <main class="wrapper">
+       <!-- -------------- FEATURED BOX ---------------- -->
+       <section class="featured-box" id="home">
+          <div class="featured-text">
+            <div class="featured-text-card">
+                <span data-lang-tr="Eda YUŞAN" data-lang-en="Eda YUSAN">Eda YUŞAN</span>
+            </div>
+            <div class="featured-name">
+                <p>Ben <span class="typedText"></span></p>
+            </div>
+            <div class="featured-text-info">
+                <p data-lang-tr="Kullanıcı dostu portfolyo web sitem" data-lang-en="My user-friendly portfolio website">
+                </p>
+                
+            </div>
+            <div class="language-switcher">
+                <button onclick="changeLanguage('tr')">🇹🇷 Türkçe</button>
+                <button onclick="changeLanguage('en')">🇬🇧 English</button>
+            </div>
+            <div class="social_icons">
+                <a href="https://www.instagram.com/eda_yusan" target="_blank" class="icon">
+                    <i class="uil uil-instagram"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/eda-yuşan-432768216" target="_blank" class="icon">
+                    <i class="uil uil-linkedin-alt"></i>
+                </a>
+                <a href="https://twitter.com/luna_flx" target="_blank" class="icon">
+                    <i class="uil uil-twitter"></i> 
+                </a>
+                <a href="https://github.com/eda-yusan" target="_blank" class="icon">
+                    <i class="uil uil-github-alt"></i>
+                </a>
+            </div>
+          </div>
+          <div class="featured-image">
+            <div class="image">
+                <img src="assets/images/avatar.png" alt="avatar">
+            </div>
+          </div>
+          <div class="scroll-icon-box">
+            <a href="#about" class="scroll-btn">
+                <i class="uil uil-mouse-alt"></i>
+                <p data-lang-tr="Aşağı in" data-lang-en="Scroll down">Aşağı in</p>
+            </a>
+          </div>
+
+       </section>
+       <!-- -------------- ABOUT BOX ---------------- -->
+       <section class="section" id="about">
+          <div class="top-header">
+            <h1 data-lang-tr="Hakkımda" data-lang-en="About Me">Hakkımda</h1>
+          </div>
+          <div class="row">
+            <div class="col">
+                <div class="about-info">
+                    <h3 data-lang-tr="Bilgi" data-lang-en="Information">Bilgi</h3>
+                     <p data-lang-tr="Düzce Üniversitesi Bilgisayar Mühendisliği 4.sınıf öğrencisiyim.
+                     Eğitim hayatım süresince teknoloji dünyasının çeşitli alanlarında yeni bilgiler edinmeye ,
+                      araştırmalar yapmaya hem akademik hem de pratik düzeyde kendimi geliştirmeye odaklanmış durumdayım. 
+                      Android uygulama geliştirme ,veri bilimi, yapay zeka, derin öğrenme konu ve alanlarıyla aktif olarak ilgileniyorum." 
+                          data-lang-en="I am a 4th-year Computer Engineering student at Düzce University.
+                          Throughout my education, I have focused on gaining new knowledge in various areas of the technology world, conducting research, and improving myself both academically and practically.
+                          I am actively interested in Android application development, data science, artificial intelligence, deep learning.">
+                    <!-- <div class="about-btn">
+                        <button class="btn">Download CV <i class="uil uil-import"></i></button>
+                    </div> -->
+                </div>
+            </div>
+            <div class="col">
+                <div class="skills-box">
+                    <div class="skills-header">
+                        <h3>Frontend</h3>
+                    </div>
+                    <div class="skills-list">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>Bootstrap</span>
+                        <span>JavaScript</span>
+                    </div>
+                </div>
+                <div class="skills-box">
+                    <div class="skills-header">
+                        <h3>Backend</h3>
+                    </div>
+                    <div class="skills-list">
+                        <span>JAVA</span>
+                        <span>Python</span>
+                        <span>C#</span>
+                    </div>
+                </div>
+                <div class="skills-box">
+                    <div class="skills-header">
+                        <h3 data-lang-tr="Veri Tabanları" data-lang-en="Database">Veri Tabanları</h3>
+                    </div>
+                    <div class="skills-list">
+                        <span>MySQL</span>
+                        <span>Firebase</span>
+                        <span>MSSQL</span>
+                    </div>
+                </div>
+            </div>
+          </div>
+       </section>
+
+       <!-- -------------- PROJECT BOX ---------------- -->
+
+       <section class="section" id="projects">
+          <div class="top-header">
+                <h1 data-lang-tr="Projeler" data-lang-en="Projects">Projeler</h1>
+          </div>
+          <div class="project-container">
+            <div class="project-box">
+                <i class="uil uil-tear"></i>
+                <h3 data-lang-tr="Sulama Modülü Ayar Programı" data-lang-en="Irrigation Module Setting Program">Sulama Modülü Ayar Programı</h3>
+                <div class="about-btn">
+                    <a href="https://github.com/eda-yusan/IrrigationModuleSettingProgram.git" target="_blank">
+                        <button class="btn" data-lang-tr="Tıklayınız" data-lang-en="Click Here">Tıklayınız<i class="uil uil-github-alt"></i></button>
+                    </a>
+                </div>
+            </div>
+            <div class="project-box">
+                <i class="uil uil-sitemap"></i>
+                <h3 data-lang-tr="Kedi Köpek Sınıflandırma" data-lang-en="Cat Dog Classification">Teknoloji Dükkanı Otomasyon Uygulaması</h3>
+                <div class="about-btn">
+                    <a href="https://github.com/eda-yusan/Cat-Dog-Classification-TransferLearning.git" target="_blank">
+                        <button class="btn" data-lang-tr="Tıklayınız" data-lang-en="Click Here">Tıklayınız<i class="uil uil-github-alt"></i></button>
+                    </a>
+                </div>
+            </div>
+            <div class="project-box">
+                <i class="uil uil-desktop"></i>
+                <h3 data-lang-tr="Teknoloji Dükkanı Otomasyon Uygulaması" data-lang-en="Technology Store Application">Kedi Köpek Sınıflandırma </h3>
+                <div class="about-btn">
+                    <a href="https://github.com/eda-yusan/TechnologyStoreApplication.git" target="_blank">
+                        <button class="btn" data-lang-tr="Tıklayınız" data-lang-en="Click Here">Tıklayınız<i class="uil uil-github-alt"></i></button>
+                    </a>
+                </div>
+            </div>
+            <div class="project-box">
+                <i class="uil uil-chart-line"></i>
+                <h3 data-lang-tr="Sağlık Sigortası Analizi" data-lang-en="Health Insurance Analysis">Sağlık Sigortası Analizi </h3>
+                <div class="about-btn">
+                    <a href="https://github.com/eda-yusan/Health_Insurance_Analysis-1.git" target="_blank">
+                        <button class="btn" data-lang-tr="Tıklayınız" data-lang-en="Click Here">Tıklayınız<i class="uil uil-github-alt"></i></button>
+                    </a>
+                </div>
+            </div>
+        </div>
+         <div class="scroll-icon-box">
+            <a href="https://github.com/eda-yusan" class="scroll-btn">
+                <i class="uil uil-mouse-alt"></i>
+                <p data-lang-tr="Daha Fazlası İçin" data-lang-en="For More">Daha Fazlası İçin</p>
+            </a>
+          </div> 
+          </div>
+       </section>
+
+       <!-- -------------- CONTACT BOX ---------------- -->
+
+       <section class="section" id="contact">
+          <div class="top-header">
+            <h1 data-lang-tr="İletişim" data-lang-en="Contact">İletişim</h1>
+          </div>
+                <div class="contact-info">
+                    <h2 data-lang-tr="Ulaşın" data-lang-en="Contact Me">Ulaşın <i class="uil uil-corner-right-down"></i></h2>
+                    <p><i class="uil uil-envelope"></i> Email: edayusan92@gmail.com</p>
+                </div>
+             </div>
+             <!-- <div class="col">
+                <div class="form-control">
+                    <div class="form-inputs">
+                        <input type="text" class="input-field" placeholder="Name">
+                        <input type="text" class="input-field" placeholder="Email">
+                    </div>
+                    <div class="text-area">
+                        <textarea placeholder="Message"></textarea>
+                    </div>
+                    <div class="form-button">
+                        <button class="btn">Send <i class="uil uil-message"></i></button>
+                    </div>
+                </div> -->
+       </section>
+
+    </main>
+
+
+    <!-- --------------- FOOTER --------------- -->
+    <footer>
+        <div class="bottom-footer">
+            <p>Copyright &copy; <a href="#home" style="text-decoration: none;">Eda YUŞAN</a> - All rights reserved</p>
+        </div>
+    </footer>
+
+    </div>
+
+
+    <!-- ----- TYPING JS Link ----- -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+       <!-- ----- SCROLL REVEAL JS Link----- -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- ----- MAIN JS ----- -->
+    <script src="assets/js/main.js"></script>
+    
+</body>
+</html>
