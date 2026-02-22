@@ -32,7 +32,7 @@ window.onload = headerShadow;
 
 /* ----- TYPING EFFECT ----- */
 var typingEffect = new Typed(".typedText",{
-  strings : ["Jr. Backend Geliştirici","Jr. Veri Bilimci"],
+  strings : ["Jr. Veri Mühendisi","Jr. Veri Bilimci"],
   loop : true,
   typeSpeed : 100, 
   backSpeed : 80,
